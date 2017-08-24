@@ -1,0 +1,56 @@
+@media only screen and (max-width: 480px){
+.logo-main{
+    border-top: -100px;
+    margin-bottom: 100px;
+}
+.container-logo{
+    position: relative;
+    top: 70px;
+    bottom: 30px;
+    z-index: 0;
+    display: block;
+}
+h1{
+    padding: 15px;
+}
+.allIcon{
+    text-align: center;
+}
+#info{
+	top:240px;
+}
+#curriculo{
+    top: 1520px;
+    height: 900px;
+}
+.building{
+	height: 400px;
+}
+#portfolio{
+	top:1130px;
+	background-color: #fff;
+	height: 400px;
+	z-index: -1;
+}
+#comment{
+    top: 2390px;
+}
+#contact{
+	top:2970px;
+    height: 563px;
+}
+.textMob{
+    font-family: sans-serif;
+      position:absolute; 
+      padding: 40px;
+}
+#foot{
+	top:3650px;
+}
+.buttonMenu{
+    margin-top: 12px;
+    left: 0px;
+    color: #888;
+    font-size: 20px;
+}
+}

@@ -1,0 +1,287 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+.logo-mini {
+	width: 80px;
+    margin-top: 5px;
+}
+.invi{
+	visibility: hidden;
+}
+.logoCont{
+	margin-top: -80px;
+}
+h1{
+	padding: 20px;
+	font-size: 35px;
+	color: #153856;
+}
+.logo-main{
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+.container-logo{
+	position: fixed;	
+	overflow: hidden;
+	z-index: -10;
+	width: 100%;
+	background-color: #fff;
+	bottom: 0;
+    top:15px;
+}
+.menu{
+	width: 100%;
+	padding: 0;
+}
+#info{
+	display: block;
+	background-color: #799FC2;
+	position: absolute;
+	width: 100%;
+	top:530px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+#info h3{
+	color:#153856;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Calibri, sans-serif;
+}
+#info p{
+	color: #153856;
+	font-size: 19px;
+	text-align: center;
+}
+#info hr{
+	color: #8AC5AF;
+	border-top: 2px solid #fff;
+}
+.allIcon{
+	color:#fff;
+	display: block;
+	font-size: 50px;
+}
+#portfolio{
+	display: block;
+	position: absolute;
+	top:865px;
+	width: 100%;
+	padding: 0;
+	z-index: -5;
+}
+/* START Propriedads img*/
+.tint{
+  position: relative;
+  /*float: left;*/
+}
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(62, 82, 100, 0.9);
+  background: rgba(21, 56, 86, 0.6); /*Dont change it, black isn't right*/
+  transition: all .3s linear;
+}
+.textoImg{
+	z-index:100;
+    position:absolute;    
+    color:#f2f2f2;
+    font-size:22px;
+    font-weight:bold;
+    margin-top: 220px;
+    margin-left: 50px;
+	font-family: sans-serif;
+    text-shadow:#2e2e2e 0 4px 5px;
+}
+#textoImagem2{
+    margin-top: 370px;
+    margin-left: 70px;
+}
+#textoImagem3{
+    margin-top: 530px;
+    margin-left: 90px;
+}
+/*.cover{
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   /*background: rgb(250, 250, 250,0.5); 
+   background: rgba(255,255,255, 0.3);
+   padding: 10px; 
+}*/
+/* END Propriedads img*/
+#curriculo{
+	display: block;
+	position: absolute;
+	height: 350px;
+	top: 1600px;
+/*	background-color:  #799FC2;*/
+	background-color: #153856;
+	width: 100%;
+}
+#curriculo h3{
+	padding: 20px;
+	font-size: 35px;
+	color: #799FC2;
+}
+#curriculo p{
+	font-size: 18px;
+	color: #799FC2;
+	padding:10px;
+	font-family: Calibri;
+	
+}
+.casaImg{
+	border-radius: 10px;
+	height: 128px;
+	width: 264px;
+}
+.eff img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.eff img:hover {
+  opacity: 0.5;
+}
+.VL{
+  border: 1px solid black;
+}
+.sizeImg{
+	width: 264px;
+	height: 128px;
+}
+#comment{
+	display: block;
+	position: absolute;
+	background-color: #fff;
+	width: 100%;
+	top:1950px;
+	height: 500px;
+}
+#parag{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 110px;
+	font-family: serif;
+}
+#autor{
+	font-size: 25px;
+	text-align: right;
+	font-family: serif;
+	margin-right: 70px;
+	font-weight: bold;
+}
+#contact{
+	display: block;
+	position: absolute;
+	background-color: #426585;
+	width: 100%;
+	top:2250px;
+	height: 500px;
+	padding-top: 30px;
+	color: #fff;
+}
+#contact p{
+	font-size: 18px;
+}
+#contact img{
+	height: 80px;
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+#foot{
+	display: block;
+	position: absolute;
+	width: 100%;
+	background-color:#153856;
+	color: #fff;
+	top: 2746px;
+}
+
+
+/* START CSS do site que muda cor do navbar/bootstrap*/
+.navbar-default {
+  background-color: #153856;
+  border-color: #3e5264;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #2d2de3;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+  font-size: 17px;
+  padding-top: 20px;
+  padding-right: 35px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #2d2de3;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #2d2de3;
+  background-color: #3e5264;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #2d2de3;
+  background-color: #3e5264;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3e5264;
+  padding: 5px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3e5264;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #2d2de3;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #2d2de3;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #2d2de3;
+    background-color: #3e5264;
+  }
+}
+/* END CSS do site que muda cor do navbar/bootstrap*/
